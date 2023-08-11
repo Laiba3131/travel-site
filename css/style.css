@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#topnav{
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 0px 0px black;
+}
+#topnav ul li {
+  display: inline;
+  padding: 0px 20px;
+}
+#topnav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#topnav ul {
+  padding-left: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#topnav ul li button {
+  background-color: #1dc9cb;
+  border: 0;
+  padding: 10px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+#topnav button:hover {
+  background-color: #1da0a2;
+}
+
+#hero {
+  background-image: url(https://mobirise.com/extensions/businessm4/travel-agency/assets/images/artiom-vallat-558027-unsplash-1519757244-94.181.200.62-1920x1280.jpg);
+  text-align: center;
+  padding: 247px 0px;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#hero h1 {
+  font-size: 60px;
+  color: #444444;
+  letter-spacing: 5px;
+}
+#hero p {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+#btn1 {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  border: 1px white solid;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  transition: 0.5s all;
+}
+#btn1:hover {
+  background-color: transparent;
+  border: 1px white solid;
+  color: white;
+}
+#btn2 {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+#btn2:hover {
+  background-color: white;
+  border: 1px white solid;
+  color: black;
+}
+#journal {
+  padding: 50px 100px;
+}
+#journal h1 {
+  margin-bottom: 20px;
+}
+#journal p {
+  color: gray;
+}
+#journal table {
+  margin-top: 30px;
+}
+
+#journal table tr td {
+  background-color: #f1f1f1;
+  padding: 70px 30px;
+  border-radius: 5px;
+}
+
+#quote {
+  padding: 50px 300px;
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+}
+
+#newsletter {
+  text-align: center;
+  background-image: url(https://mobirise.com/extensions/businessm4/travel-agency/assets/images/background6-1920x1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 90px 0px;
+}
+#newsletter h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+#newsletter input {
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  border: none;
+}
+#newsletter a {
+  text-decoration: none;
+  background-color: #1dc9cb;
+  padding: 10px 20px 13px 20px;
+  margin-left: -8px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+
+#cards-sec {
+  padding: 50px 100px;
+}
+
+#cards-sec table tr td {
+  padding: 10px 10px;
+}
+
+#cards-sec #card {
+  padding: 30px 15px;
+  border-radius: 5px;
+}
+
+#cards-sec #card h3 {
+  margin-bottom: 25px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: white;
+  font-size: 25px;
+}
+
+#cards-sec #card p {
+  margin-bottom: 20px;
+  color: rgb(228, 228, 228);
+}
+
+#quote-sec {
+  padding: 50px 250px;
+}
+
+#quote-sec img {
+  width: 150px;
+}
+#quote-sec p {
+  color: gray;
+  font-size: 20px;
+}
+#cards-sec #card a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s all;
+}
+#cards-sec #card a:hover {
+  color: black;
+}
+
+#card3 {
+  padding: 50px 100px;
+}
+
+#tbl3 td {
+  width: 33% !important;
+  padding: 50px 20px;
+}
+
+#card3-wrap p {
+  color: gray;
+  padding: 10px 0px;
+}
+
+#card3-wrap img {
+  border-radius: 5px;
+}
+
+#card3-wrap h3 {
+  margin-top: 15px;
+}
+
+#card3-wrap button {
+  background-color: #1dc9cb;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+
+#card3-wrap button:hover {
+  scale: 1.05;
+  background-color: #1da0a2;
+  cursor: pointer;
+  box-shadow: 0px 3px 10px 1px #0000006b;
+}
+
+#card3-wrap a {
+  text-decoration: none;
+  color: #1dc9cb;
+  margin-top: 20px;
+}
+
+#card3-wrap h1 {
+  margin-top: -150px;
+}
+
+#card3-wrap p {
+  margin-top: 30px;
+}
+#card3-wrap button {
+  margin-top: 30px;
+}
+#card4 {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+#card-4 {
+  width: 33% !important;
+  padding: 50px 20px;
+}
+
+#card4 p {
+  margin-top: 20px;
+  color: gray;
+  margin: 20px 0px;
+}
+#card-4 img {
+  border-radius: 5px 5px 0px 0px ;
+}
+#card-4 a {
+  text-decoration: none;
+  color: #1dc9cb;
+}
+#blogcard {
+  box-shadow: 0px 3px 10px 3px #00000026;
+  border-radius: 5px;
+}
+#blogcard-body{
+    padding: 40px 30px;
+}
+#footer{
+    background-color: #f4f8fa;
+    padding: 40px 100px;
+}
+#f-tbl td{
+    width: 25%;
+    padding: 0px 10px;
+}
+#f-heading{
+    font-size: 20px;
+}
+#socIcons i{
+    margin-top: 10px;
+    color: #1dc9cb;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    
+}
+#f-desc{
+    margin-top: 10px;
+    color: gray;
+}
