@@ -7,7 +7,7 @@
   top: 0;
   background-color: white;
   width: 100%;
-  box-shadow: 0px 0px 0px black;
+  box-shadow: 0px 3px 10px 3px #0000001f;
 }
 #topnav ul li {
   display: inline;
